@@ -18,6 +18,7 @@ namespace exercicio02 {
             f2.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             double media = (f1.Salario + f2.Salario) / 2.0;
             Console.WriteLine("Salário médio = " + media.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Executado");
         }
     }
 }
